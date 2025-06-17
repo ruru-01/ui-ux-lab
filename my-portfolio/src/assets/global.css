@@ -1,0 +1,13 @@
+/* global.cssではどこにどのフォントを当てるかを指定 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Noto+Sans+JP&display=swap');
+
+/* 本文（日本語）→ Noto　Sans JP優先 */
+body {
+  font-family: 'Noto Sans JP', 'Roboto Mono', sans-serif;
+}
+
+/* 見出し → Roboto Mono */
+h1, h1 {
+  font-family: 'Roboto Mono', monospace;
+}
