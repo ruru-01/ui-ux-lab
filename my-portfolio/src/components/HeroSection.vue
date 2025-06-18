@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section class="hero fade-in">
     <div class="hero-content">
       <h1 class="headline">UI/UXを考えるエンジニア</h1>
       <p class="subtext">
@@ -15,6 +15,27 @@
 </script>
 
 <style scoped>
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+ animation: fadeIn 1s ease-out;
+}
+
+/* prefers-reduced-motionに対応 */
+@media (prefers-reduced-motion: reduce) {
+  .fade-in {
+    animation: none !important;
+  }
+}
 
 .hero {
   display: flex;
