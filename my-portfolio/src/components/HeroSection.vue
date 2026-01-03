@@ -9,6 +9,7 @@
 
       <!-- SNSアイコン群 -->
       <div class="flex flex-row justify-center items-center gap-4 mt-2">
+        <SocialIcon url="https://github.com/ruru-01" label="GitHub" iconPath="/icons/github.png" />
         <SocialIcon url="#" label="Instagram" iconPath="/icons/instagram.svg" />
         <SocialIcon url="#" label="Threads" iconPath="/icons/threads.svg" />
         <SocialIcon url="#" label="X" iconPath="/icons/x.svg" />
