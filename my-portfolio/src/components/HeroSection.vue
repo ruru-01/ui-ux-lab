@@ -1,19 +1,18 @@
 <template>
   <section class="hero fade-in min-h-screen flex flex-col justify-center items-center text-white">
     <div class="hero-content text-center px-4">
-      <h1 class="headline text-4xl font-bold mb-4">マイポートフォリオ</h1>
-      <p class="subtext text-lg mb-8">
-        心地良いユーザー体験を追求し、届ける<br>
-        UI/UXエンジニア
-      </p>
+      <h1 class="headline text-4xl font-bold mb-4">{{ profile.headline }}</h1>
+      <p class="subtext text-lg mb-8">{{ profile.subtext }}</p>
 
       <!-- SNSアイコン群 -->
       <div class="flex flex-row justify-center items-center gap-4 mt-2">
-        <SocialIcon url="https://github.com/ruru-01" label="GitHub" iconPath="/icons/github.png" />
-        <SocialIcon url="#" label="Instagram" iconPath="/icons/instagram.svg" />
-        <SocialIcon url="#" label="Threads" iconPath="/icons/threads.svg" />
-        <SocialIcon url="#" label="X" iconPath="/icons/x.svg" />
-        <SocialIcon url="#" label="LINE" iconPath="/icons/line.png" />
+        <SocialIcon
+          v-for="link in profile.socialLinks"
+          :key="link.label"
+          :url="link.url"
+          :label="link.label"
+          :iconPath="link.iconPath"
+        />
       </div>
     </div>
   </section>
@@ -21,6 +20,10 @@
 
 <script setup lang="ts">
 import SocialIcon from './SocialIcon.vue';
+import { useProfileStore } from '../stores/profile';
+
+// ストアのインスタンスを作成
+const profile = useProfileStore();
 </script>
 
 <style scoped>
