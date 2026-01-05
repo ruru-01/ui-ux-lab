@@ -1,8 +1,9 @@
 <template>
-  <div id="app" class="min-h-screen flex flex-col">
+  <div class="min-h-screen w-full flex flex-col bg-black text-white">
     <AppHeader />
       <main class="flex-1">
         <HeroSection />
+        <WorksSection />
       </main>
     <AppFooter />
   </div>
@@ -12,6 +13,7 @@
 import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
 import HeroSection from './components/HeroSection.vue';
+import WorksSection from './components/Work/WorkSection.vue';
 </script>
 
 <style scoped>
