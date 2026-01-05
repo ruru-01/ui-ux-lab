@@ -1,9 +1,8 @@
 <template>
-  <section class="hero fade-in min-h-screen flex flex-col justify-center items-center text-white">
-    <div class="hero-content text-center px-4">
+  <section class="hero fade-in w-full">
+    <div class="hero-content w-full max-w-6xl mx-auto text-center px-4">
       <h1 class="headline text-4xl font-bold mb-4">{{ profile.headline }}</h1>
       <p class="subtext text-lg mb-8">{{ profile.subtext }}</p>
-
       <!-- SNSアイコン群 -->
       <div class="flex flex-row justify-center items-center gap-4 mt-2">
         <SocialIcon
