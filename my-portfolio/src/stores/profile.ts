@@ -3,7 +3,7 @@ import { ref } from 'vue'
 
 export const useProfileStore = defineStore('profile', () => {
   // セクションのテキスト
-  const headline = ref('マイポートフォリオ')
+  const headline = ref('My portfolio')
   const subtext = ref('心地良いユーザー体験を追求し、届ける\nUI/UXエンジニア')
 
   // SNSリンクのデータ
