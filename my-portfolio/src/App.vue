@@ -3,6 +3,7 @@
     <AppHeader />
       <main class="flex-1">
         <HeroSection />
+        <SkillsSection />
         <WorksSection />
       </main>
     <AppFooter />
@@ -13,6 +14,7 @@
 import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
 import HeroSection from './components/HeroSection.vue';
+import SkillsSection from './components/Skills/SkillsSection.vue';
 import WorksSection from './components/Work/WorkSection.vue';
 </script>
 

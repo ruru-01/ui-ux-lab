@@ -69,6 +69,10 @@ button:focus-visible {
   padding: 2em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #app {
   width: 100%;
   min-height: 100vh;

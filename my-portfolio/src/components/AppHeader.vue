@@ -3,6 +3,7 @@
     <div class="w-full h-full flex items-center justify-between">
       <div class="text-lg font-bold">ロゴ</div>
       <nav class="flex gap-4">
+        <a href="#skills">Skills</a>
         <a href="#about" class="hover:underline">About</a>
         <a href="#works" class="hover:underline">Works</a>
         <a href="#contact" class="hover:underline">Contact</a>
