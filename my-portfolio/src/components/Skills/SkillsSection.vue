@@ -32,7 +32,7 @@
 const skillCategories = [
   {
     title: 'Frontend',
-    items: ['Vue.js', 'React', 'TypeScript', 'Tailwind CSS', 'Accessibility (A11y)']
+    items: ['HTML', 'CSS', 'JavaScript', 'Vue.js', 'React', 'TypeScript', 'Tailwind CSS', 'A11y']
   },
   {
     title: 'Design',
