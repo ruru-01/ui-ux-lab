@@ -5,6 +5,7 @@
         <HeroSection />
         <SkillsSection />
         <WorksSection />
+        <ContactSection />
       </main>
     <AppFooter />
   </div>
@@ -16,6 +17,7 @@ import AppFooter from './components/AppFooter.vue';
 import HeroSection from './components/HeroSection.vue';
 import SkillsSection from './components/Skills/SkillsSection.vue';
 import WorksSection from './components/Work/WorkSection.vue';
+import ContactSection from './components/Contact/ContactSection.vue';
 </script>
 
 <style scoped>
