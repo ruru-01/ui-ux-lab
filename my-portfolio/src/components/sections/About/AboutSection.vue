@@ -34,5 +34,6 @@
 </template>
 
 <script setup lang="ts">
-import profileImage from "../../assets/ruru.jpg";
+import profileImage from '../../../assets/ruru.jpg';
+
 </script>

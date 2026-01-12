@@ -13,13 +13,13 @@
 </template>
 
 <script setup lang="ts">
-import AppHeader from './components/AppHeader.vue';
-import AppFooter from './components/AppFooter.vue';
-import HeroSection from './components/HeroSection.vue';
-import AboutSection from './components/About/AboutSection.vue';
-import SkillsSection from './components/Skills/SkillsSection.vue';
-import WorksSection from './components/Work/WorkSection.vue';
-import ContactSection from './components/Contact/ContactSection.vue';
+import AppHeader from './components/common/AppHeader.vue';
+import AppFooter from './components/common/AppFooter.vue';
+import HeroSection from './components/sections/HeroSection.vue';
+import AboutSection from './components/sections/About/AboutSection.vue';
+import SkillsSection from './components/sections/Skills/SkillsSection.vue';
+import WorksSection from './components/sections/Works/WorkSection.vue';
+import ContactSection from './components/sections/Contact/ContactSection.vue';
 </script>
 
 <style scoped>
