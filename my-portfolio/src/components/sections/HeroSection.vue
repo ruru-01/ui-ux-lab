@@ -46,8 +46,8 @@
 </template>
 
 <script setup lang="ts">
-import SocialIcon from './SocialIcon.vue';
-import { useProfileStore } from '../stores/profile';
+import SocialIcon from '../common/SocialIcon.vue';
+import { useProfileStore } from '../../stores/profile';
 
 const profile = useProfileStore();
 </script>
