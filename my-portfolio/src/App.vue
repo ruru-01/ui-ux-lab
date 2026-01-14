@@ -29,6 +29,14 @@ import SkillsSection from './components/sections/Skills/SkillsSection.vue';
 import WorksSection from './components/sections/Works/WorkSection.vue';
 import ContactSection from './components/sections/Contact/ContactSection.vue';
 import ScrollReveal from './components/common/ScrollReveal.vue';
+import { onMounted } from 'vue';
+import { useThemeStore } from './stores/theme';
+
+const theme = useThemeStore();
+onMounted(() => {
+  theme.initTheme();
+})
+
 </script>
 
 <style scoped>
